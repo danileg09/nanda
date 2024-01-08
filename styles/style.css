@@ -1,0 +1,35 @@
+.first-container{
+    width: 100%; /* ou qualquer largura desejada */
+    height: 100vh; /* ou qualquer altura desejada */
+    background-image: url('../img//nanda1.jpeg');
+    background-size: cover; /* para cobrir toda a área da div */
+    background-position: center; /* para centralizar a imagem na div */
+    color: #ffffff; /* cor do texto dentro da div, para contraste */
+    text-align: center; /* centralizar o texto na div, se houver */
+}
+
+.custom-navbar{
+    height: 15vh;
+    opacity: 90%;
+}
+
+.custom-navbar-brand{
+    margin-left: 50px;
+}
+
+.custom-navbar-content {
+    margin-right: 50px; 
+}
+
+.text-first-container{
+    padding-top:15%;
+}
+
+.text-first-container h1{
+    font-size: 4rem;
+    color:#ffffff
+}
+
+.text-first-container i{
+    background-color: blue;
+}
