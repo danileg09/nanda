@@ -1,11 +1,36 @@
-.first-container{
-    width: 100%; /* ou qualquer largura desejada */
-    height: 100vh; /* ou qualquer altura desejada */
-    background-image: url('../img//nanda1.jpeg');
-    background-size: cover; /* para cobrir toda a área da div */
-    background-position: center; /* para centralizar a imagem na div */
-    color: #ffffff; /* cor do texto dentro da div, para contraste */
-    text-align: center; /* centralizar o texto na div, se houver */
+.first-container {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden; /* Garante que as imagens fora da visão sejam ocultadas */
+
+    /* Adicionando uma animação de slide com transição suave */
+    animation: slide 12s infinite ease-in-out; /* Altere a duração (12s) conforme necessário */
+}
+
+/* Adicionando as imagens do slider como múltiplos backgrounds */
+.first-container {
+    background-image: url('../img/nanda1.jpeg');
+    /* Adicione mais imagens conforme necessário, separando por vírgulas */
+}
+
+/* Definindo a animação de slide */
+@keyframes slide {
+    0%, 25% {
+        background-image: url('../img/nanda1.jpeg');
+    }
+    25.01%, 50% {
+        background-image: url('../img/nanda2.jpeg');
+    }
+    50.01%, 75% {
+        background-image: url('../img/nanda3.jpeg');
+    }
+    75.01%, 100% {
+        background-image: url('../img/nanda1.jpeg');
+    }
 }
 
 .custom-navbar{
@@ -32,4 +57,8 @@
 
 .text-first-container i{
     background-color: blue;
+}
+
+.icon-down{
+    padding-top: 10%;
 }
