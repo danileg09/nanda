@@ -33,10 +33,14 @@
     }
 }
 
-.custom-navbar{
-    height: 15vh;
-    opacity: 90%;
-}
+
+
+@media (min-width: 992px) {
+    .custom-navbar{
+        height: 15vh;
+        opacity: 90%;
+    }
+  }
 
 .custom-navbar-brand{
     margin-left: 50px;
