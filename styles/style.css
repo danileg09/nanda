@@ -1,6 +1,6 @@
 .first-container {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -13,12 +13,12 @@
 
 /* Adicionando as imagens do slider como múltiplos backgrounds */
 .first-container {
-    background-image: url('../img/nanda1.jpeg');
+    /* background-image: url('../img/nanda1.jpeg'); */
     /* Adicione mais imagens conforme necessário, separando por vírgulas */
 }
 
 /* Definindo a animação de slide */
-@keyframes slide {
+/* @keyframes slide {
     0%, 25% {
         background-image: url('../img/nanda1.jpeg');
     }
@@ -31,7 +31,7 @@
     75.01%, 100% {
         background-image: url('../img/nanda1.jpeg');
     }
-}
+} */
 
 
 
